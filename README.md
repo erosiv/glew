@@ -1,3 +1,9 @@
+# erosiv - Notice
+
+This fork contains the generated headers and source files, and remains pinned at version 2.3.1.
+
+The reason is that the newly included `CMakeLists.txt` can expose a target through inclusion as a submodule, and easily statically linked against using the `GLEW::vendored` target.
+
 # GLEW - The OpenGL Extension Wrangler Library
 
 The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is exposed in a single header file. GLEW has been tested on a variety of operating systems, including Windows, Linux, Mac OS X, FreeBSD, Irix, and Solaris.
